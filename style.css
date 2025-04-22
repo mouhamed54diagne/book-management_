@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .form-container {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .table-container {
+    flex: 2;
+    min-width: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  #cancel-btn {
+    background-color: #f44336;
+    margin-right: 10px;
+    display: none;
+  }
+  #cancel-btn:hover {
+    background-color: #d32f2f;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .action-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  .edit-btn {
+    background-color: #2196f3;
+  }
+  .edit-btn:hover {
+    background-color: #0b7dda;
+  }
+  .delete-btn {
+    background-color: #f44336;
+  }
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  .message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  .message.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+  .message.error {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+  
